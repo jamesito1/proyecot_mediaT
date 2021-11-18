@@ -9,9 +9,9 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="formulario">
+    <div  class="formulario" >
         <h1>Registro</h1>
-        <form action="">
+        <form action="guardar_datos.php" method="POST">
             <input type="email" id="correo" name="correo" placeholder="Correo Electronico">
     <br>
     <br>
@@ -30,7 +30,7 @@
     <input type="date" id="fecha_n" name="fecha_n" placeholder="Fecha Nacimiento">
     <br>
     <br>
-            <button id="enviar">Registrarse</button>
+            <button id="resgistrarse" name="resgistrarse">Registrarse</button>
             <br>
             <span class="crear_cuenta"><a href="Index.html">Ya tienes cuenta</a> </span>
         </form>
