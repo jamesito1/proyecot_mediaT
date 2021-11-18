@@ -10,8 +10,8 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="formulario">
-    <h1>Registro</h1>
+    <div class="formulario" >
+    <h1>Iniciar Sesion</h1>
     <form action="">
         
         
@@ -19,10 +19,12 @@
 <br>
 <br>
         
-        <input type="email" id="email" name="email" placeholder="Ingresa el correo">
+        <input type="password" id="contra" name="contra" placeholder="Ingresa tu contraseña">
 <br>
 <br>
-        <button id="enviar">Enviar</button>
+        <button id="enviar">Iniciar</button>
+        <br>
+        <span class="crear_cuenta"><a href="registro.php">¿No tienes cuenta?</a> </span>
     </form>
 </div>
 

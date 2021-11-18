@@ -8,6 +8,8 @@
     text-align: center;
     background-color: #F2F3F4;
     border-radius: 10px;
+    padding-bottom: 40px;
+    
 
 }
 
@@ -28,7 +30,8 @@ button{
     background-color: #D5F5E3;
     border-radius:5px ;
     border: 0;
-    margin-bottom: 20px;
+    margin-bottom: 9px;
+    
     
 }
 
@@ -44,4 +47,10 @@ h1{
 
 label{
     margin-right: 3px;
+}
+
+
+.crear_cuenta a{
+    text-decoration: none;
+    color: black;
 }
