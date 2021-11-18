@@ -3,19 +3,15 @@
 session_start();
 
 $conn = mysqli_connect(
-    'localhost'
-    'root'
+    'localhost',
+    'root',
     '',
     'ususarios'
-)or die (mysqli_erro($mysqli));
+)or die (mysqli_error($mysqli));
 
 if(isset($conn)){
     echo 'Base de datos conectada';
 }
-
-
-
-
 
 
 ?>
