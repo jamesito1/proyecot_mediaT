@@ -1,0 +1,12 @@
+create database ususarios;
+
+create table ususario(
+
+nombre_usuario varchar(10),
+contraseña varchar(10),
+correo_electronico varchar(50),
+fecha_nacimiento date,
+telefono int(10)
+primary key(usuarios)
+
+)
